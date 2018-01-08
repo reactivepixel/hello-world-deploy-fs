@@ -4,14 +4,17 @@
   "description": "I'm Alive!",
   "main": "server.js",
   "engines": {
-      "node": "v8.8.1",
-      "npm": "v5.5.1"
-    },
+    "node": "v8.8.1",
+    "npm": "v5.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
   "author": "Chapman",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
