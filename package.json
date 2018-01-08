@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "I'm Alive!",
   "main": "server.js",
+  "engines": {
+      "node": "v8.8.1",
+      "npm": "v5.5.1"
+    },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
