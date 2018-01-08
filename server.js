@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.use('/', (req, res) => {
   console.log('route activated');
-  res.send('Hello World');
+  res.send('Hello World: Now with unit testing!');
 });
 
 exports.server = app.listen(port, () => {
